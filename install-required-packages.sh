@@ -35,9 +35,11 @@ install() {
 install "vim"
 install "htop"
 install "git"
+install "gitk"
 install "meld"
 install "tmux"
 install "tree"
+install "firefox"
 
 install "make"
 install "cmake"
