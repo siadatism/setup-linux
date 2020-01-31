@@ -16,5 +16,10 @@ add_line() {
 add_line "alias LS='ls'"
 add_line "alias sl='ls'"
 add_line "alias SL='ls'"
+add_line "alias cp='cp -r'"
+add_line "alias scp='scp -r'"
+add_line "alias vim='vim -p'"
+add_line "alias apt='sudo apt'"
+add_line "alias apt-get='sudo apt-get'"
 
 exit 0
