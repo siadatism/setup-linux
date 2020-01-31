@@ -1,6 +1,8 @@
 " Sources: 
 "     https://vim.fandom.com/wiki/Example_vimrc
 "     https://dougblack.io/words/a-good-vimrc.html
+
+" TODO: Check https://github.com/amix/vimrc
  
 " Colorscheme
 colorscheme koehler
@@ -10,6 +12,9 @@ syntax on
 
 " Show line numbers
 set number
+
+" Show file stats
+set ruler
 
 " Better command-line completion
 set wildmenu
