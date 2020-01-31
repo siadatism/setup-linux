@@ -4,5 +4,6 @@
 set -e
 
 cp -v ./gitconfig ~/.gitconfig
+git config --list
 
 exit 0
