@@ -1,0 +1,14 @@
+[user]
+	name = Seyed Mehran Siadati
+	email = siadatism@gmail.com
+
+[core]
+	editor = vim
+
+[diff]
+	tool = meld
+
+[alias]
+	a = add --all
+	st = status
+	# More good aliases at: "https://gist.github.com/pksunkara/988716"
