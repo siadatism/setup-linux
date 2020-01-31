@@ -1,5 +1,5 @@
 #!/bin/bash
-# Modifies htop config.
+# Installs htop config.
 
 # Debug:
 # set -x
