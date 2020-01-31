@@ -36,13 +36,14 @@ install "vim"
 install "htop"
 install "git"
 install "meld"
+install "tmux"
 
 install "make"
 install "cmake"
-
 install "g++"
 install "clang"
 install "gdb"
+install "valgrind"
 
 # set +o xtrace
 exit 0
