@@ -13,6 +13,9 @@ add_line() {
 	grep -qF -- "$LINE" "$BASHRC_FILE" || echo "$LINE" >> "$BASHRC_FILE"
 }
 
+add_line "alias dc='cd'"
+add_line "alias CD='cd'"
+add_line "alias DC='cd'"
 add_line "alias LS='ls'"
 add_line "alias sl='ls'"
 add_line "alias SL='ls'"
