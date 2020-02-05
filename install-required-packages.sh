@@ -40,6 +40,7 @@ install "meld"
 install "tmux"
 install "tree"
 install "firefox"
+install "yakuake"
 
 install "make"
 install "cmake"
