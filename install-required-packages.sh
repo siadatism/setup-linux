@@ -41,6 +41,8 @@ install "tmux"
 install "tree"
 install "firefox"
 install "yakuake"
+install "net-tools"		# ifconfig
+install "openssh-server"		# To Enable scp
 
 install "make"
 install "cmake"
