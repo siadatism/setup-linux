@@ -1,9 +1,6 @@
 #!/bin/bash
 # Installs htop config.
 
-# Debug:
-# set -x
-
 HTOP_CONFIG="$HOME/.config/htop/htoprc"
 HTOP_BACKUP_CONFIG="$HOME/.config/htop/htoprc.backup"
 

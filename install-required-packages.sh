@@ -1,11 +1,12 @@
 #!/bin/bash
 # Install requirements in Ubuntu.
 
-# To enable debugging uncomment these to see running commands:
-# apt install xtrace
-# set -o xtrace
+# Debug mode:
+#     apt install xtrace
+#     set -o xtrace
 
-set -e
+# Abort script at first error
+set -o errexit
 
 if [ "$EUID" -ne 0 ]
 	then echo "run needs root access"

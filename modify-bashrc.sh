@@ -2,7 +2,7 @@
 # Modifies bashrc.
 
 # Debug:
-# set -x
+#     set -o xtrace
 
 BASHRC_FILE="$HOME/.bashrc"
 
