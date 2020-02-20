@@ -40,6 +40,7 @@ install "gitk"
 install "meld"
 install "tmux"
 install "tree"
+install "sysstat"
 install "firefox"
 install "yakuake"
 install "net-tools"		# ifconfig
