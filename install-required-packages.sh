@@ -33,6 +33,8 @@ install() {
 	fi
 }
 
+install "bc"
+install "man-db"
 install "vim"
 install "htop"
 install "git"
