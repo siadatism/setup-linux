@@ -12,4 +12,6 @@
 [alias]
 	a = add --all
 	st = status
+	co = checkout
+	br = branch
 	# More good aliases at: "https://gist.github.com/pksunkara/988716"
