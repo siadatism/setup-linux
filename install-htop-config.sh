@@ -1,17 +1,13 @@
 #!/bin/bash
 # Installs htop config.
 
-HTOP_CONFIG="$HOME/.config/htop/htoprc"
-HTOP_BACKUP_CONFIG="$HOME/.config/htop/htoprc.backup"
+HTOP_CONFIG_PATH="$HOME/.config/htop"
 
-if [ -f $HTOP_BACKUP_CONFIG ]
+if [ ! -d $HTOP_CONFIG_PATH ]
 then
-	echo "Backup exists."
-else
-	echo "Making backup first.."
-	cp -v $HTOP_CONFIG $HTOP_BACKUP_CONFIG
+	mkdir -pv $HTOP_CONFIG_PATH
 fi
 
-cp -v htoprc "$HTOP_CONFIG"
+cp -v htoprc "$HTOP_CONFIG_PATH"
 
 exit 0
