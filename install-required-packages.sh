@@ -38,24 +38,35 @@ install "man-db"
 install "vim"
 install "htop"
 install "git"
-install "gitk"
-install "meld"
 install "tmux"
 install "tree"
 install "sysstat"
-install "firefox"
-install "yakuake"
 install "net-tools"		# ifconfig
 install "openssh-server"		# To Enable scp
 
+# Network
+install "iproute2"
+install "tcpdump"
+install "tshark"
+install "nmap"
+
+# C++ Development
 install "make"
 install "cmake"
 install "g++"
 install "clang"
 install "gdb"
 install "valgrind"
-
 install "libboost-dev"
+
+# UI
+#install "gitk"
+#install "meld"
+#install "yakuake"
+#install "firefox"
+
+# TODO
+# docker
 
 # set +o xtrace
 exit 0
