@@ -34,3 +34,5 @@
 * Check firewall
 
   ufw status
+
+* Change hostname and IP
