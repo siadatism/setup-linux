@@ -72,8 +72,10 @@ set tm=500
 " Enable use of the mouse for all modes
 set mouse=a
 
+set noexpandtab
 set tabstop=4
 set softtabstop=4
+set shiftwidth=4
 
 " Be smart when using tabs
 set smarttab
