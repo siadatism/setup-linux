@@ -17,14 +17,20 @@
 
 * Install required packages
 
+* Update packages
+
 * Modify bashrc
 
 * Install vimrc, bashrc, htoprc
 
 * Install docker
 
-* Set docker repo
+* Add docker repository
 
 * Get required docker images
 
-* Set banner 
+* Set banner
+
+* Check firewall
+
+  ufw status
