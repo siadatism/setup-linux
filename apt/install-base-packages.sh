@@ -33,18 +33,19 @@ install() {
 	fi
 }
 
-install "bc"
 install "man-db"
+install "bc"
+install "mc"
 install "vim"
 install "htop"
 install "git"
 install "tmux"
 install "tree"
 install "sysstat"
-install "net-tools"		# ifconfig
-install "openssh-server"		# To Enable scp
+install "openssh-server"
 
 # Network
+install "net-tools"		# ifconfig
 install "iproute2"
 install "tcpdump"
 install "tshark"
@@ -58,6 +59,9 @@ install "clang"
 install "gdb"
 install "valgrind"
 install "libboost-dev"
+
+# Other
+install "dos2unix"
 
 # UI
 #install "gitk"

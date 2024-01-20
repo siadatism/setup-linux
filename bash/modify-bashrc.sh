@@ -25,4 +25,6 @@ add_line "alias vim='vim -p'"
 add_line "alias apt='sudo apt'"
 add_line "alias apt-get='sudo apt-get'"
 
+# TODO: Force color prompt
+
 exit 0
