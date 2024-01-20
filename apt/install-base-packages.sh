@@ -52,6 +52,7 @@ install "tshark"
 install "nmap"
 
 # C++ Development
+install "build-essential"
 install "make"
 install "cmake"
 install "g++"
