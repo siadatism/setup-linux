@@ -61,6 +61,9 @@ install "gdb"
 install "valgrind"
 install "libboost-dev"
 
+# VoIP
+install "sngrep"
+
 # Other
 install "dos2unix"
 
