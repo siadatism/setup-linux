@@ -5,7 +5,7 @@
 
 if [ "$#" -ne 1 ]; then
     echo "Input new hostname .."
-	echo "Usage: $0 MY-NEW-HOSTNAME"
+	echo "Usage: $0 [NEW_HOSTNAME]"
 	exit 1
 fi
 

@@ -3,7 +3,7 @@ network:
   ethernets:
     ens160:
       addresses:
-      - 192.168.21.73/24
+      - 192.168.21.72/24
       nameservers:
         addresses:
         - 192.168.21.254
